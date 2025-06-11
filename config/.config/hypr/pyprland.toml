@@ -1,0 +1,35 @@
+[pyprland]
+plugins = ["scratchpads"]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class scratch-term"
+class = "scratch-term"
+size = "75% 60%"
+position = "240px 216px"
+unfocus = "hide"
+
+
+[scratchpads.vim]
+animation = "fromTop"
+command = "kitty --class scratch-vim -e vim"
+class = "scratch-vim"
+size = "75% 60%"
+position = "240px 216px"
+unfocus = "hide"
+
+[scratchpads.hypr]
+animation = "fromTop"
+command = "kitty --class scratch-hypr -e vim ~/.config/hypr/hyprland.conf"
+class = "scratch-hypr"
+size = "75% 60%"
+position = "240px 216px"
+unfocus = "hide"
+
+[scratchpads.pavu]
+animation = "fromTop"
+command = "pavucontrol"
+class = "org.pulseaudio.pavucontrol"
+size = "75% 60%"
+position = "240px 216px"
+unfocus = "hide"
